@@ -16,7 +16,7 @@ export const hero = {
   // use the URL-encoded filename so the browser requests the correct file
   ctaPrimary: {
     label: "Download Resume",
-    href: "/resume.pdf/omnish_resume.pdf",
+    href: "public/resume.pdf/omnish_resume.pdf",
   },
   ctaSecondary: { label: "Get in Touch", href: "/contact" },
   socials: [],
@@ -68,7 +68,7 @@ export const projects = [
       "An AI-assisted music theory companion with adaptive exercises, generative progressions, and collaborative practice rooms.",
     tags: ["Next.js"],
     live: "https://provenpeak.com/",
-    repo: "https://github.com/example/chord-atlas",
+    // repo: "https://github.com/example/chord-atlas",
   },
   {
     title: "Natunza",
@@ -76,16 +76,16 @@ export const projects = [
       "Micro-app platform for marketing teams with drag-and-drop workflows, integrated DAM, and custom automation scripting.",
     tags: ["React", "XState", "Node.js", "AWS"],
     live: "https://www.natunza.com/",
-    repo: "https://github.com/example/canvas-os",
+    // repo: "https://github.com/example/canvas-os",
   },
-  // {
-  //   title: "Lighthouse UI Kit",
-  //   description:
-  //     "Open-source system of accessible components and tokens powering 40+ B2B dashboards.",
-  //   tags: ["Storybook", "Tailwind", "Rollup", "Vitest"],
-  //   live: "https://example.com/lighthouse",
-  //   repo: "https://github.com/example/lighthouse",
-  // },
+  {
+    title: "Money Health(EMI Calculator)",
+    description:
+      "A clean, intuitive web application designed to help users manage their personal finances. With MoneyHealth, you can track income and expenses, monitor savings and budgets, and get a clear overview of your financial health",
+    tags: ["Storybook", "Tailwind", "Rollup", "Vitest"],
+    live: "https://money-health.vercel.app/",
+    // repo: "https://github.com/example/lighthouse",
+  },
 ];
 
 export const skills = {
