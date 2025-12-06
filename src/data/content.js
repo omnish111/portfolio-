@@ -117,5 +117,9 @@ export const contact = {
       label: "GitHub : github.com/omnish111",
       href: "https://github.com/omnish111",
     },
+    {
+      label: "GitLab : gitlab.com/omnishkasundra/portfolio",
+      href: "https://gitlab.com/omnishkasundra/portfolio",
+    },
   ],
 };
