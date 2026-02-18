@@ -62,27 +62,27 @@ export const experience = [
 ];
 
 export const projects = [
-  {
-    title: "ProvenPeak",
-    description:
-      "An AI-assisted music theory companion with adaptive exercises, generative progressions, and collaborative practice rooms.",
-    tags: ["Next.js"],
-    live: "https://provenpeak.com/",
+  // {
+  //   title: "ProvenPeak",
+  //   description:
+  //     "An AI-assisted music theory companion with adaptive exercises, generative progressions, and collaborative practice rooms.",
+  //   tags: ["Next.js"],
+  //   live: "https://provenpeak.com/",
     // repo: "https://github.com/example/chord-atlas",
-  },
-  {
-    title: "Natunza",
-    description:
-      "Micro-app platform for marketing teams with drag-and-drop workflows, integrated DAM, and custom automation scripting.",
-    tags: ["React", "XState", "Node.js", "AWS"],
-    live: "https://www.natunza.com/",
-    // repo: "https://github.com/example/canvas-os",
-  },
+  // },
+  // {
+  //   title: "Natunza",
+  //   description:
+  //     "Micro-app platform for marketing teams with drag-and-drop workflows, integrated DAM, and custom automation scripting.",
+  //   tags: ["React", "XState", "Node.js", "AWS"],
+  //   live: "https://www.natunza.com/",
+  //   // repo: "https://github.com/example/canvas-os",
+  // },
   {
     title: "Money Health(EMI Calculator)",
     description:
       "A clean, intuitive web application designed to help users manage their personal finances. With MoneyHealth, you can track income and expenses, monitor savings and budgets, and get a clear overview of your financial health",
-    tags: ["Storybook", "Tailwind", "Rollup", "Vitest"],
+    tags: ["React.js", "Vercel", "Github"],
     live: "https://money-health.vercel.app/",
     // repo: "https://github.com/example/lighthouse",
   },
