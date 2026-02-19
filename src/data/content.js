@@ -16,7 +16,7 @@ export const hero = {
   // use the URL-encoded filename so the browser requests the correct file
   ctaPrimary: {
     label: "Download Resume",
-    href: "public/resume.pdf/omnish_kasundra_resume.pdf",
+    href: "/resume.pdf/omnish_kasundra_resume.pdf",
   },
   ctaSecondary: { label: "Get in Touch", href: "/contact" },
   socials: [],
