@@ -16,7 +16,7 @@ export const hero = {
   // use the URL-encoded filename so the browser requests the correct file
   ctaPrimary: {
     label: "Download Resume",
-    href: "/resume.pdf/omnish_resume.pdf",
+    href: "public/resume.pdf/omnish_kasundra_resume.pdf",
   },
   ctaSecondary: { label: "Get in Touch", href: "/contact" },
   socials: [],
@@ -62,26 +62,26 @@ export const experience = [
 ];
 
 export const projects = [
-  // {
-  //   title: "ProvenPeak",
-  //   description:
-  //     "An AI-assisted music theory companion with adaptive exercises, generative progressions, and collaborative practice rooms.",
-  //   tags: ["Next.js"],
-  //   live: "https://provenpeak.com/",
+  {
+    title: "ProvenPeak",
+    description:
+      "Designed and developed a professional business website template for ProvenPeak Solution with service, technology, and contact sections.Implemented modern branding-focused layout and ensured full responsiveness across all devices using structured components and flexible CSS.",
+    tags: ["React.js","Vercel","Github"],
+    live: "https://provenpeak.com/",
     // repo: "https://github.com/example/chord-atlas",
-  // },
-  // {
-  //   title: "Natunza",
-  //   description:
-  //     "Micro-app platform for marketing teams with drag-and-drop workflows, integrated DAM, and custom automation scripting.",
-  //   tags: ["React", "XState", "Node.js", "AWS"],
-  //   live: "https://www.natunza.com/",
-  //   // repo: "https://github.com/example/canvas-os",
-  // },
+  },
+  {
+    title: "Natunza",
+    description:
+      "Built a full-stacke-commerce web application using Next.js, Node.js, Express, and MongoDB.Implemented responsive SEO-friendly UI, secure authentication, product & order management, cart/checkout system, and an admin dashboard with full CRUD functionality.",
+    tags: ["Next.js", "Node.js", "MongoDB","Vercel","Github"],
+    live: "https://www.natunza.com/",
+    // repo: "https://github.com/example/canvas-os",
+  },
   {
     title: "Money Health(EMI Calculator)",
     description:
-      "A clean, intuitive web application designed to help users manage their personal finances. With MoneyHealth, you can track income and expenses, monitor savings and budgets, and get a clear overview of your financial health",
+      "Developed Money-Health, a responsive web-based EMI Calculator that provides real-time loan calculations including EMI, total interest, and repayment breakdown.Designed a clean user-friendly interface with optimized logic for instant results and deployed the application on Vercel for fast global access.",
     tags: ["React.js", "Vercel", "Github"],
     live: "https://money-health.vercel.app/",
     // repo: "https://github.com/example/lighthouse",
