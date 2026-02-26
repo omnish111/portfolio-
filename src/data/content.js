@@ -62,14 +62,20 @@ export const experience = [
 ];
 
 export const projects = [
-  
-  
-  {
+ {
     title: "Money Health(EMI Calculator)",
     description:
       "Developed Money-Health, a responsive web-based EMI Calculator that provides real-time loan calculations including EMI, total interest, and repayment breakdown.Designed a clean user-friendly interface with optimized logic for instant results and deployed the application on Vercel for fast global access.",
     tags: ["React.js", "Vercel", "Github"],
     live: "https://money-health.vercel.app/",
+    // repo: "https://github.com/example/lighthouse",
+  },
+ { 
+    title: "Private Knowledge Q&A",
+    description:
+      "Built a full-stack AI document Q&A platform using React(Vite), Node.js/Express, and OpenAI API for context-aware responses.Implemented a RAG-based system enabling secure document uploads with citation-backend answers and fallback logic.Designed a responsive modern UI and deployed using Vercel for scalable performance.",
+    tags:["React.js", "Node.js", "Integrated AI", "Vercel", " Github"],
+    live: "https://private-knowledge-q-a-client-k4vj.vercel.app/",
     // repo: "https://github.com/example/lighthouse",
   },
 ];
