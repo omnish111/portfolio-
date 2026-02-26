@@ -16,7 +16,7 @@ export const hero = {
   // use the URL-encoded filename so the browser requests the correct file
   ctaPrimary: {
     label: "Download Resume",
-    href: "/resume.pdf/omnish_kasundra_resume.pdf",
+    href: "/resume.pdf/omnish_resume.pdf",
   },
   ctaSecondary: { label: "Get in Touch", href: "/contact" },
   socials: [],
@@ -62,22 +62,8 @@ export const experience = [
 ];
 
 export const projects = [
-  {
-    title: "ProvenPeak",
-    description:
-      "Designed and developed a professional business website template for ProvenPeak Solution with service, technology, and contact sections.Implemented modern branding-focused layout and ensured full responsiveness across all devices using structured components and flexible CSS.",
-    tags: ["React.js","Vercel","Github"],
-    live: "https://provenpeak.com/",
-    // repo: "https://github.com/example/chord-atlas",
-  },
-  {
-    title: "Natunza",
-    description:
-      "Built a full-stacke-commerce web application using Next.js, Node.js, Express, and MongoDB.Implemented responsive SEO-friendly UI, secure authentication, product & order management, cart/checkout system, and an admin dashboard with full CRUD functionality.",
-    tags: ["Next.js", "Node.js", "MongoDB","Vercel","Github"],
-    live: "https://www.natunza.com/",
-    // repo: "https://github.com/example/canvas-os",
-  },
+  
+  
   {
     title: "Money Health(EMI Calculator)",
     description:
