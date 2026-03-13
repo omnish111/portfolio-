@@ -21,7 +21,7 @@ const Navbar = () => {
     <header className={`nav ${scrolled ? "scrolled" : ""}`}>
       <div className="nav-shell">
         <NavLink className="logo" to="/" onClick={() => setOpen(false)} end>
-          <span>OK</span>
+          <span>Omnish Kasundra</span>
         </NavLink>
         <nav className={`nav-links ${open ? "is-open" : ""}`}>
           {navigation.map((item) => (

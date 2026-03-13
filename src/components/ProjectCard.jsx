@@ -17,7 +17,15 @@ const ProjectCard = ({ project }) => (
         Featured Project
       </div>
       <h3 className="project-title">{project.title}</h3>
-      <p className="project-description">{project.description}</p>
+      {Array.isArray(project.description) ? (
+        <ul className="project-description project-description-list">
+          {project.description.map((point, i) => (
+            <li key={i}>• {point}</li>
+          ))}
+        </ul>
+      ) : (
+        <p className="project-description">{project.description}</p>
+      )}
     </div>
     <div className="project-footer">
       <div className="project-tags">

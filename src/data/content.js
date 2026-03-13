@@ -31,9 +31,16 @@ export const experience = [
   {
     company: "Elsner Technology Pvt. Ltd.",
     role: "Intern",
-    period: "3 months",
+    period: "May 2025 - June 2025",
     summary: "Worked on a project to build a web application for a client.",
-    highlights: [" I am completed my internship in Reactjs."],
+    highlights: [" I am completed my internship as Frontend Developer."],
+  },
+  {
+    company: "ApTech Enterprise Pvt. Ltd.",
+    role: "Intern",
+    period: "Feb 2026 - Present",
+    summary: "Working on a project to build a web applications for a client.",
+    highlights: [" I am currently prsuing my internship as Full Stack Developer."],
   },
   // {
   //   company: "Freelance",
@@ -62,19 +69,40 @@ export const experience = [
 ];
 
 export const projects = [
- {
+  {
     title: "Money Health(EMI Calculator)",
-    description:
-      "Developed Money-Health, a responsive web-based EMI Calculator that provides real-time loan calculations including EMI, total interest, and repayment breakdown.Designed a clean user-friendly interface with optimized logic for instant results and deployed the application on Vercel for fast global access.",
+    description: [
+      "Developed Money-Health, a responsive web-based EMI Calculator that computes monthly EMI, total interest, and total repayment based on loan amount, interest rate, and tenure.",
+      "Implemented real-time loan calculation logic using JavaScript, enabling instant result updates as users modify loan parameters.",
+      "Designed a clean, intuitive, and mobile-responsive UI to provide a smooth user experience across devices.",
+      "Deployed the application on Vercel, enabling fast global delivery with automatic builds and continuous deployment.",
+    ],
     tags: ["React.js", "Vercel", "Github"],
     live: "https://money-health.vercel.app/",
     // repo: "https://github.com/example/lighthouse",
   },
- { 
+  {
     title: "Private Knowledge Q&A",
-    description:
-      "Built a full-stack AI document Q&A platform using React(Vite), Node.js/Express, and OpenAI API for context-aware responses.Implemented a RAG-based system enabling secure document uploads with citation-backend answers and fallback logic.Designed a responsive modern UI and deployed using Vercel for scalable performance.",
-    tags:["React.js", "Node.js", "Integrated AI", "Vercel", " Github"],
+    description: [
+      "Built a full-stack AI document Q&A platform using React (Vite), Node.js, Express, and OpenAI API to generate context-aware answers from uploaded documents.",
+      "Implemented a Retrieval-Augmented Generation (RAG) pipeline to process uploaded files, extract relevant context, and produce citation-based AI responses.",
+      "Developed secure document upload and backend APIs for document processing, query handling, and reliable response generation with fallback logic.",
+      "Designed a responsive chat-style UI and deployed the platform on Vercel for scalable performance and fast global access.",
+    ],
+    tags: ["React.js", "Node.js", "Integrated AI", "Vercel", " Github"],
+    live: "https://private-knowledge-q-a-client-k4vj.vercel.app/",
+    // repo: "https://github.com/example/lighthouse",
+  },
+  {
+    title: "Digital Card Platform",
+    description: [
+      "Built a Digital Card Platform, a full-stack digital business card system using React, Node.js, Express, and MongoDB with secure JWT authentication and protected dashboards.",
+      "Implemented QR scan routing to log scan analytics and redirect users to dynamic public profile pages.",
+      "Developed a template-driven card builder with 13 customizable themes, live preview, and profile personalization.",
+      "Engineered real-time analytics using Socket.IO to track taps, clicks, device types, visitor geography, and engagement trends.",
+      "Integrated contact actions, privacy controls, slug management, and production-level security (Helmet, CORS, rate limiting, NoSQL-injection protection).",
+    ],
+    tags: ["React.js", "Node.js", "MongoDB", "DigitalOcean", " Github"],
     live: "https://private-knowledge-q-a-client-k4vj.vercel.app/",
     // repo: "https://github.com/example/lighthouse",
   },
@@ -90,8 +118,37 @@ export const skills = {
     "MongoDB",
     "MySQL",
   ],
-  Data: ["MySQL", "MongoDB", "AWS", "Vercel"],
-  DevOps: ["Git", "GitHub", "GitLab", "VS Code", "Cursor", "MongoDB Compass"],
+  Data: ["MySQL", "MongoDB",],
+  DevOps: ["Git", "GitHub", "GitLab"],
+
+  "AI Integration": [
+    "OpenAI API",
+    "RAG",
+    "Vector Databases",
+    "Gemini API",
+    "AI chatbot",
+  ],
+  "Deployment" : [
+    "Vercel",
+    "Netlify",
+    "Heroku",
+    "ci/cd pipelines",
+    "server hosting",
+    "digitalocean"
+  ],
+  "DSA": [
+    "Arrays",
+    "Linked Lists",
+    "Stacks",
+    "Queues",
+    "Trees",
+    "Graphs",
+    "Sorting",
+    "Searching",
+    "Linked Lists",
+    "Hash maps",
+    "Recursion",
+  ],
 };
 
 export const contact = {

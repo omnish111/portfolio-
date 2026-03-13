@@ -33,8 +33,9 @@ const Skills = () => (
       <SkillSection title="Backend" items={skills.Backend || []} index={1} />
       <SkillSection title="Data" items={skills.Data || []} index={2} />
       <SkillSection title="DevOps" items={skills.DevOps || []} index={3} />
-      SkillSection
-
+      <SkillSection title="AI Integration" items={skills["AI Integration"] || []} index={4} />
+      <SkillSection title="Deployment" items={skills.Deployment || []} index={5} />
+      <SkillSection title="DSA" items={skills.DSA || []} index={6} />
     </div>
   </section>
 );
