@@ -96,14 +96,14 @@ export const projects = [
   {
     title: "Digital Card Platform",
     description: [
-      "Built a Digital Card Platform, a full-stack digital business card system using React, Node.js, Express, and MongoDB with secure JWT authentication and protected dashboards.",
-      "Implemented QR scan routing to log scan analytics and redirect users to dynamic public profile pages.",
-      "Developed a template-driven card builder with 13 customizable themes, live preview, and profile personalization.",
-      "Engineered real-time analytics using Socket.IO to track taps, clicks, device types, visitor geography, and engagement trends.",
-      "Integrated contact actions, privacy controls, slug management, and production-level security (Helmet, CORS, rate limiting, NoSQL-injection protection).",
+      "A live,SaaS platform where professionals create NFC/QRpowered digital profiles — and vehicle owners stay reachable in emergencies.",
+      "Built a full-stack MERN SaaS platform enabling NFC/QR-based digital business cards with dynamic profiles, vCard export, lead capture forms, and a Free vs Pro subscription model.",
+      "Engineered real-time analytics (Socket.IO) tracking visitor geolocation, device type, and interaction events — with role-based data retention (30-day free / lifetime Pro).",
+      "Integrated Razorpay payment gateway with HMAC SHA256 server-side verification, order tracking, and automated transactional emails (Brevo SMTP) for physical NFC sticker e-commerce.",
+      "Deployed on DigitalOcean VPS with Nginx reverse proxy, SSL (Let's Encrypt), PM2, self-hosted MongoDB accessed via SSH tunnel — managing complete production DevOps independently.",
     ],
-    tags: ["React.js", "Node.js", "MongoDB", "DigitalOcean", " Github"],
-    live: "https://private-knowledge-q-a-client-k4vj.vercel.app/",
+    tags: ["React.js", "Node.js", "MongoDB", "Socket.IO", "JWT", "Razorpay", "Nginx", "DigitalOcean", " PM2"],
+    live: "https://elitecard.live/",
     // repo: "https://github.com/example/lighthouse",
   },
 ];
