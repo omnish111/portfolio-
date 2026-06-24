@@ -38,7 +38,7 @@ export const experience = [
   {
     company: "ApTech Enterprise Pvt. Ltd.",
     role: "Intern",
-    period: "Feb 2026 - Present",
+    period: "Jan 2026 - Present",
     summary: "Working on a project to build a web applications for a client.",
     highlights: [" I am currently prsuing my internship as Full Stack Developer."],
   },
@@ -94,60 +94,74 @@ export const projects = [
     // repo: "https://github.com/example/lighthouse",
   },
   {
-    title: "Digital Card Platform",
+    title: "EliteCard – Digital Profile & Vehicle Safety SaaS",
     description: [
-      "A live,SaaS platform where professionals create NFC/QRpowered digital profiles — and vehicle owners stay reachable in emergencies.",
-      "Built a full-stack MERN SaaS platform enabling NFC/QR-based digital business cards with dynamic profiles, vCard export, lead capture forms, and a Free vs Pro subscription model.",
-      "Engineered real-time analytics (Socket.IO) tracking visitor geolocation, device type, and interaction events — with role-based data retention (30-day free / lifetime Pro).",
-      "Integrated Razorpay payment gateway with HMAC SHA256 server-side verification, order tracking, and automated transactional emails (Brevo SMTP) for physical NFC sticker e-commerce.",
-      "Deployed on DigitalOcean VPS with Nginx reverse proxy, SSL (Let's Encrypt), PM2, self-hosted MongoDB accessed via SSH tunnel — managing complete production DevOps independently.",
+      "Architected dual-tier SaaS (Free vs. Pro) with microservices backend, RBAC, MVC & RESTful APIs — live with 99.9%+ uptime.",
+      "Built 20+ FastAPI + MongoDB APIs; zero unauthorized access incidents in production.",
+      "Redis session caching + pub/sub; RabbitMQ event-driven queues between microservices; Razorpay, webhook.",
+      "Integrated OpenAI & Claude APIs with LangChain for automated profile onboarding — reduced manual setup by 60%.",
+      "Full DevOps: Nginx, PM2, SSL/TLS, Docker containerization, GitHub Actions CI/CD; Socket.IO real-time vehicle safety alerts.",
     ],
-    tags: ["React.js", "Node.js", "MongoDB", "Socket.IO", "JWT", "Razorpay", "Nginx", "DigitalOcean", " PM2"],
+    tags: ["Python", "FastAPI", "React.js", "Next.js", "MongoDB", "Socket.IO", "RazorPay", "JWT", "DigitalOcean VPS", "GitHub Actions", "CI/CD"],
     live: "https://elitecard.live/",
     // repo: "https://github.com/example/lighthouse",
   },
 ];
 
 export const skills = {
-  Frontend: ["React", "TypeScript", "JavaScript", "HTML", "CSS", "Bootstrap"],
+  Languages: ["JavaScript (ES6+)", "TypeScript", "Python"],
+  Frontend: ["React.js", "Next.js", "Context API", "React Hooks", "Tailwind CSS", "Responsive Design", "Code Splitting", "Lazy Loading"],
   Backend: [
     "Node.js",
     "Express.js",
-    "Nest.js",
-    "REST APIs",
-    "MongoDB",
-    "MySQL",
+    "FastAPI",
+    "RESTful APIs",
+    "Microservices",
+    "MVC",
+    "JWT Auth",
+    "Socket.IO",
+    "LangChain",
+    "LangGraph",
+    "Prompt Engineering",
+    "Rate Limiting",
   ],
-  Data: ["MySQL", "MongoDB",],
-  DevOps: ["Git", "GitHub", "GitLab"],
-
-  "AI Integration": [
+  "Msg & Cache": [
+    "Redis (caching, pub/sub)",
+    "RabbitMQ (message queuing, event-driven architecture)"
+  ],
+  "AI & LLM": [
     "OpenAI API",
-    "RAG",
-    "Vector Databases",
-    "Gemini API",
-    "AI chatbot",
+    "Claude API",
+    "LangChain",
+    "RAG pipelines",
+    "Vector DB (basics)",
+    "ChatGPT, Gemini, Cursor, Google Antigravity — daily production usage"
   ],
-  "Deployment" : [
+  "Databases": [
+    "MongoDB (Self-hosted & Atlas)",
+    "MySQL",
+    "Query Optimization",
+    "Indexing"
+  ],
+  "Cloud/DevOps": [
+    "DigitalOcean VPS",
+    "Linux",
+    "Nginx",
+    "PM2",
+    "SSL/TLS",
     "Vercel",
-    "Netlify",
-    "Heroku",
-    "ci/cd pipelines",
-    "server hosting",
-    "digitalocean"
+    "GitHub Actions CI/CD",
+    "AWS (basics)",
+    "JWT",
+    "RBAC"
   ],
-  "DSA": [
-    "Arrays",
-    "Linked Lists",
-    "Stacks",
-    "Queues",
-    "Trees",
-    "Graphs",
-    "Sorting",
-    "Searching",
-    "Linked Lists",
-    "Hash maps",
-    "Recursion",
+  "Tools": [
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Postman",
+    "Cursor IDE",
+    "Google Antigravity"
   ],
 };
 
